@@ -1,0 +1,648 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* CSS Variables */
+:root{
+    --navbar-height:59px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* --------------------------------------------------------------------------------------------- */
+
+
+
+ /* navigation bar */
+ #navbar1{
+     display: flex;
+     align-items: center;
+     position: relative;
+     /* width: 100%; */
+     height: 141px; 
+    /* position: absolute; */
+    /* position: sticky; */
+     top: 0px;
+     z-index: 1;
+ }
+ .time{
+     color: white;
+     position: relative;
+     left: 250px;
+     bottom: 39px;
+     cursor: pointer;
+ }
+ .time:hover{
+     height: 39px;
+ }
+ .timing{
+     color: rgb(184, 180, 180);
+     position: relative;
+     left: 56px;
+     bottom: 6px;
+     /* cursor: pointer; */
+ }
+ .timing1{
+     color: rgb(184, 180, 180);
+     position: relative;
+     left: -4px;
+     bottom: 6px;
+ }
+ .call{
+    color: white;
+    position: relative;
+    left: 169px;
+    bottom: 39px;
+    cursor: pointer;
+ }
+ .call:hover{
+     height: 39px;
+ }
+ .twitt{
+    color: white;
+    position: relative;
+    left: 102px;
+    bottom: 39px;
+    cursor: pointer;
+ }
+ /* .twitt:hover{
+     background-color: rgb(17, 61, 63);
+     height: 90.5px;
+ }
+ .fb:hover{
+     background-color: rgb(17, 61, 63);
+     height: 55.5px;
+ } */
+ .search:hover{
+     background-color: rgb(227, 237, 238);
+     height: 47.5px;
+ }
+ .search{
+    color: white;
+    position: relative;
+    left: 152px;
+    bottom: 37px;
+    background-color: white;
+    cursor: pointer;
+ }
+ .fb{
+    /* color: white; */
+    position: relative;
+    left: 66px;
+    bottom: 39px;
+    cursor: pointer;
+
+ }
+
+
+ #navbar1::before{
+    content: "";
+    background-color: rgb(17, 61, 63);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+   opacity: 0.9;     
+}
+ #navbar{
+     display: flex;
+     align-items: center;
+     position: relative;
+     /* width: 100%; */
+     height: 89px; 
+    /* position: absolute; */
+    position: sticky;
+     top: 0px;
+     z-index: 1;
+ }
+
+
+
+ /* navigation bar: logo and image */
+
+ #logo{
+    margin: -51px -27px;
+
+}
+#logo img{
+    
+    height: 150px;
+    margin: 45px 50px;
+  
+
+}
+/* navigation bar: list styling */
+
+ #navbar ul{
+     display: flex;
+     font-family: 'Baloo Bhai 2';
+ }
+
+ #navbar::before{
+    content: "";
+    background-color: rgba(18, 69, 71, 1);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+   opacity: 0.7;     
+}
+
+#navbar ul li{
+   
+    list-style: none;
+    font-size: 1.3rem;
+
+}
+
+#navbar ul li a{
+    color: white;
+  display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: rgb(9, 248, 136);
+ background-color: rgb(61, 57, 57);
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------- */
+
+
+
+/* HOME SECTION */
+
+#home{
+     display: flex;
+     flex-direction: column;
+     padding: 3px 200px;
+     /* height: 461px; */
+     height: 364px;
+     justify-content: center;
+     align-items: center;
+}
+#home::before{
+   content: "";
+   background: url(../l6.jpg) no-repeat center center/cover;
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   height: 100%;
+   width: 100%;
+   z-index: -1;
+   opacity: 1;
+}   
+
+   #home h1{
+       color: #f7fcf8;
+       text-align: center;
+   }
+   #home p{
+       color: rgb(247, 242, 242);
+       text-align: center;
+       font-size: 1.5rem;
+       font-family: 'Baloo Bhai 2';
+   }
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+
+
+ /* Services section */
+
+ #sub-heading{
+     padding: 20px;
+
+ }
+
+ #services1{
+    margin: 34px;
+    display: flex;
+    /* padding: 20px; */
+}
+
+ .box-1{
+     /* border: 2px solid red; */
+     padding: 20px;
+     margin: 69px;
+     width:369px;
+     position: relative;
+    bottom: 99px;
+    right: 42px;
+
+
+ }
+ .box-2{
+     /* border: 2px solid green; */
+     height: 169px;
+     width: 600px;
+     position: relative;
+     left: 9px;
+ }
+.fifth{
+    font-size: 1.3rem;
+    padding: 12px;
+
+}
+
+ #image1{
+     display: inline-block;
+     vertical-align: middle;
+     position: relative;
+ }
+
+ #services-container1{
+     position:relative;
+     bottom:129px;
+ }
+
+
+ #services .box4{
+    /* border: 2px solid brown; */
+    padding: 4px;
+    margin: 1px 1px;
+    /* border-radius: 28px; */
+    /* background: #e3d8c8; */
+}
+
+.lady{
+    position: relative;
+    bottom: 139px;
+}
+
+#box5{
+    position: relative;
+    /* border: 2px solid red; */
+    width: 739px;
+    height: 149px;
+    left: 450px;
+    bottom: 450px;
+
+}
+#services2{
+    margin: 34px;
+    display: flex;
+    
+}
+
+.lorem{
+    font-size: 1.5rem;
+    padding: 12px;
+
+}
+
+
+   
+ #services{
+    margin: 34px;
+    display: flex;
+
+}
+#services-container::before{
+    content: "";
+   /* background-color: #bad3de; */
+   position: absolute;
+   width: 100%;
+   height: 569px;
+   z-index: -1;
+   opacity: 0.4;
+
+}
+#services .box{
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 18px;
+    background: #99b392;
+}
+#services .box img{
+    height: 100px;
+    margin: auto;
+    display: block;
+}
+
+#services .box p{
+   font-family: 'Baloo Bhai 2';
+}
+#services-container{
+    position: relative;
+    bottom: 369px;
+}
+
+.colorr{
+    color: rgb(67, 21, 151);
+}
+/* __________________________________________________________________________________________________________________- */
+
+
+.conthead{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    /* margin: 10px; */
+    padding: 10px;
+}
+#green{
+    border:2px rgb(87, 83, 83) solid;
+    width:1250px;
+    height:300px;
+    position: relative;
+    bottom: 250px;
+background-color: rgba(18, 69, 71, 1);
+}
+
+#green ul{
+    display: flex;
+    font-family: 'Baloo Bhai 2';
+}
+
+#green ul li{
+   
+    list-style: none;
+    font-size: 1.3rem;
+
+}
+
+#green ul li a{
+    color: white;
+  display: block;
+    padding: 5px 69px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(71, 65, 150, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    padding: 17px 50px;
+}
+
+
+.hide {
+    font-size: medium;
+    display: none;
+    font-weight: bold;
+}
+
+.myDIV:hover+.hide {
+    display: block;
+    color: rgb(165, 234, 236);
+}
+
+.myDIV{
+   color: azure;
+}
+
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+
+
+ /* CLIENT SECTION */
+
+    #client-section{
+    height: 344px;
+     position: relative;
+    bottom: 210px; 
+}
+ #client-section::before{
+    content: "";
+    position: absolute;
+ 
+    width: 100%;
+    height: 58%;
+    z-index: -1;
+    opacity: 0.4;
+} 
+ #client-section::after{
+
+
+position: relative; 
+align-items: center;
+justify-content: center;
+margin: auto; 
+}  
+ #clients{
+display: flex;
+align-items: center;
+justify-content: center;
+ }
+
+.client-item{
+padding: 11px;
+ align-items: center;
+justify-content: center; 
+ }
+.client-item1{
+padding: 16px;
+ align-items: center;
+justify-content: center; 
+ }
+#clients img{
+height: 200px;
+width: 200px;
+}    
+
+
+
+
+#services6{
+    display: flex;
+    padding: 4px 5px;
+    margin: 5px;
+}
+.box11{
+    padding: 4px 39px;
+    margin: 5px;
+
+}
+
+/* --------------------------------------------------------------------------------------------------- */
+#our-clients{
+    /* border: 2px red solid; */
+    width: 1250px;
+    height: 500px;
+    background-color: rgb(129 149 149);
+}
+
+.box60{
+    /* border: 2px solid black; */
+    width: 469px;
+    height: 100px;
+    padding: 5px 20px;
+    margin: 14px;
+    border-radius: 19px;
+    justify-content: right;
+}
+
+.box61{
+    /* border: 2px solid black; */
+    width: 469px;
+    height: 100px;
+    padding: 5px 20px;
+    margin: 14px;
+    border-radius: 19px;
+    position: relative;
+    left: 650px;
+    bottom: 389px;
+}
+
+.iconss1{
+    position: relative;
+    left: 140px;
+    bottom: 80px;
+}
+.iconss2{
+    position: relative;
+    left: 140px;
+    bottom: 80px;
+}
+.iconss3{
+    position: relative;
+    left: 140px;
+    bottom: 80px;
+}
+.iconss4{
+    position: relative;
+    left: 140px;
+    bottom: 80px;
+}
+.iconss5{
+    position: relative;
+    left: 140px;
+    bottom: 80px;
+}
+.iconss6{
+    position: relative;
+    left: 140px;
+    bottom: 80px;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
+
+#contact{
+    position: relative;
+    
+}
+#contact::before{
+
+   content: "";
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   z-index: -1;
+   opacity: 0.4;
+   background: url('../feed.jpg') no-repeat center center/cover;
+
+}
+#contact-box{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+
+    position: relative;
+    left: 700px;
+    
+    padding-bottom:34px;
+}
+#contact-box form{
+    width: 40%;  
+
+}
+
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: 'Baloo Bhai 2';
+
+
+}
+
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+
+.map{
+    position: absolute;
+    bottom: 0px;
+    height: 260px;
+    top: 3913px;
+}
+
+
+
+footer{
+    background: black;
+    color: white;
+    padding: 5px 12px;
+}
+
+
+
+/* ------------------------------------------------------------------------------------------------------- */
+
+ /* Utility class */
+
+ .h-primary{
+    font-size: 3.3rem;
+    padding: 12px;
+    /* font-family: 'Baloo Bhai 2'; */
+}
+.h-secondary{
+    font-size: 2.3rem;
+    padding: 12px;
+}
+.h-secondarry{
+    font-size: 1.8rem;
+    padding: 12px;
+}
+.h-tertiary{
+    font-size: 1.1rem;
+    padding: 12px;
+}
+.h-six{
+    font-size: 1.3rem;
+    padding: 12px;
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid rgb(17, 11, 11);
+    background-color: white;
+    color: black;
+    margin: 17px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn:hover{
+   
+    background-color: rgb(168, 166, 166);
+   
+}
+.center{
+    text-align: center;
+}
+.company{
+    position: relative;
+    left: 450px;
+}
